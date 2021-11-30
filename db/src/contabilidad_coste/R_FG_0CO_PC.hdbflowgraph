@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<flowgraph:ContainerNode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmi="http://www.omg.org/XMI" xmlns:flowgraph="http://www.sap.com/ndb/flowgraph/1.0" xmi:id="5739ba8f4d46085e9abb19c5c1dbfa29" name="FG_0CO_PC" runtimeBehavior="BATCH_TASK" xmi:version="2.0">
+<flowgraph:ContainerNode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xmi="http://www.omg.org/XMI" xmlns:flowgraph="http://www.sap.com/ndb/flowgraph/1.0" xmi:id="5739ba8f4d46085e9abb19c5c1dbfa29" name="R_FG_0CO_PC" runtimeBehavior="BATCH_TASK" xmi:version="2.0">
   <annotations xmi:id="46013ba170021ecd7d101f4f2f09557c" key="sap.afm.layout">
     <annotations value="10" xmi:id="140fc8369251c28efccaf2822c0f6045" key="x"/>
     <annotations value="10" xmi:id="5c2cc3804b44e4b7bd6d502bee5ad3d9" key="y"/>
