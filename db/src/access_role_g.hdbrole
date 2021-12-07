@@ -1,6 +1,6 @@
 {
     "role": {
-        "name": "HC_SCP_CAROZZI_SAC::access_role#",
+        "name": "SCP_CAROZZI_SAC::access_role#",
         "schema_privileges": [
             {
                 "privileges_with_grant_option": [
@@ -9,7 +9,8 @@
                     "INSERT",
                     "DELETE",
                     "EXECUTE",
-                    "UPDATE"
+                    "UPDATE",
+                    "ALTER"       
                 ]
             }
         ]
