@@ -16,7 +16,7 @@
   <annotations xmi:id="e1b894402c20b66aa83af40c52ae927a" key="sap.afm.nodeOutputs">
     <annotations/>
   </annotations>
-  <nodes xsi:type="flowgraph:DataNode" xmi:id="1a807d16d25ea2a4b8b8a51aee9c8936" name="NEWVTA_DIARIO_02_CL" type="CALCULATION_VIEW" catalogObjectName="SCP_CAROZZI_SAC.NEWVENTA::NEWVTA_DIARIO_02_CL" dataLayout="COLUMN" truncateTable="false">
+  <nodes xsi:type="flowgraph:DataNode" xmi:id="1a807d16d25ea2a4b8b8a51aee9c8936" name="NEWVTA_DIARIO_02_CL" type="CALCULATION_VIEW" catalogObjectName="NEWVTA_DIARIO_02_CL" dataLayout="COLUMN" truncateTable="false">
     <annotations xmi:id="ba30b2ea5364dfbc7f66eb99df746bdc" key="sap.afm.description" value=""/>
     <annotations xmi:id="3a294137d66fa5aca0764f4d71063892" key="sap.afm.displayName" value="Data Source"/>
     <annotations xmi:id="a1bfe79efeef8a56af03227e086b08c2" key="sap.afm.layout">
