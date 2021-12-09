@@ -73,7 +73,7 @@
     <annotations xmi:id="2ad5e42a9caf6601c4e809b1d987625a" key="type" value="list"/>
     <annotations xmi:id="10ad5cb591a023f4fc7d4074baf30dfd" key="attribute" value="ZPERIO"/>
   </annotations>
-  <nodes xsi:type="flowgraph:DataNode" xmi:id="d18f077f295ab8a56e9a63a94830d92d" name="MODELO_SELLOUTCL_01" type="CALCULATION_VIEW" catalogObjectName="SCP_CAROZZI_SAC.SELLOUTCL::MODELO_SELLOUTCL_01" dataLayout="COLUMN" truncateTable="false">
+  <nodes xsi:type="flowgraph:DataNode" xmi:id="d18f077f295ab8a56e9a63a94830d92d" name="MODELO_SELLOUTCL_01" type="CALCULATION_VIEW" catalogObjectName="MODELO_SELLOUTCL_01" dataLayout="COLUMN" truncateTable="false">
     <annotations xmi:id="5cfd2f4458a661b5ae6c36eefbaf069a" key="sap.afm.description" value=""/>
     <annotations xmi:id="2ff6049f6edccd98fd03043618c95a5b" key="sap.afm.displayName" value="Data Source"/>
     <annotations xmi:id="809a7b85704a1924e72011932cd21180" key="sap.afm.layout">
