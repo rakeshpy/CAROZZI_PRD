@@ -179,7 +179,7 @@
       <attributes type="NVARCHAR" xmi:id="7dab53c2a06621e29465cea45666b0c5" name="ZPRUEBA" expression="&quot;Filter1_Input&quot;.&quot;0BILL_QTY&quot;" nullable="true" length="40" scale="0"/>
     </outputs>
   </nodes>
-  <nodes type="VIRTUAL_TABLE" xsi:type="flowgraph:DataNode" xmi:id="9bb4487e2c30a626744bc274f246e12a" name="RT_ZBW_ZVTDIEX_6" catalogObjectName="SCP_CAROZZI_SAC::RT_ZBW_ZVTDIEX_6" dataLayout="COLUMN" truncateTable="false">
+  <nodes type="VIRTUAL_TABLE" xsi:type="flowgraph:DataNode" xmi:id="9bb4487e2c30a626744bc274f246e12a" name="RT_ZBW_ZVTDIEX_6" catalogObjectName="RT_ZBW_ZVTDIEX_6" dataLayout="COLUMN" truncateTable="false">
     <annotations value="" xmi:id="dadae3a7842f0316d10b29abbb08914c" key="sap.afm.description"/>
     <annotations value="Data Source" xmi:id="7044325d2b92c0364a0f38daf64e5442" key="sap.afm.displayName"/>
     <annotations xmi:id="a4a3b41a24f388c11a2b4a3995291dd1" key="sap.afm.layout">
@@ -265,7 +265,7 @@
       <attributes type="NVARCHAR" xmi:id="058ca92541ca866eaf4a3efb3b1f333f" name="ZNTVALSOC" nullable="true" length="40" scale="0"/>
     </outputs>
   </nodes>
-  <nodes type="DATABASE_TABLE" xsi:type="flowgraph:DataNode" xmi:id="3a16294dd3fe744e22c288141e3982ab" name="ZBW_ZVTDIEX_8" catalogObjectName="SCP_CAROZZI_SAC::ZBW_ZVTDIEX_8" dataLayout="COLUMN" truncateTable="false">
+  <nodes type="DATABASE_TABLE" xsi:type="flowgraph:DataNode" xmi:id="3a16294dd3fe744e22c288141e3982ab" name="ZBW_ZVTDIEX_8" catalogObjectName="ZBW_ZVTDIEX_8" dataLayout="COLUMN" truncateTable="false">
     <annotations value="ByName" xmi:id="94cc3b466d3d15017bc742cf4e48c189" key="sap.afm.attributeMapping"/>
     <annotations xmi:id="3c61fc211b085e1d2bce695cd07e4847" key="sap.afm.layout">
       <annotations value="585" xmi:id="98f1553be43ae52a54de7ec62322eaf3" key="x"/>

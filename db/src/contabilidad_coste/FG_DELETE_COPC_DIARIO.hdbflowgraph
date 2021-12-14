@@ -10,7 +10,7 @@
   <annotations xmi:id="_KHViQAC6EeqoU-kJwD7LIA" key="sap.afm.nodeType" value="ContainerNode"/>
   <annotations xmi:id="_KHViQQC6EeqoU-kJwD7LIA" key="sap.afm.nodeInputs"/>
   <annotations xmi:id="_KHViQgC6EeqoU-kJwD7LIA" key="sap.afm.nodeOutputs"/>
-  <nodes xsi:type="flowgraph:ProcedureNode" xmi:id="_e-HZUAC5EeqoU-kJwD7LIA" name="PROCEDURE" type="DATABASE" procedureName="SCP_CAROZZI_SAC.Contabilidad_Coste::Z_DELE_COPC_AUTO">
+  <nodes xsi:type="flowgraph:ProcedureNode" xmi:id="_e-HZUAC5EeqoU-kJwD7LIA" name="PROCEDURE" type="DATABASE" procedureName="Z_DELE_COPC_AUTO">
     <annotations xmi:id="_e-HZUQC5EeqoU-kJwD7LIA" key="sap.afm.description" value="Call a stored procedure"/>
     <annotations xmi:id="_e-HZUgC5EeqoU-kJwD7LIA" key="sap.afm.displayName" value="Procedure"/>
     <annotations xmi:id="_e-HZUwC5EeqoU-kJwD7LIA" key="sap.afm.layout">

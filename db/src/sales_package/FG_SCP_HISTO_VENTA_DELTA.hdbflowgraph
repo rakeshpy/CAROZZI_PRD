@@ -16,7 +16,7 @@
   <annotations xmi:id="ff5dfd6df1b020de1e7d6656c76e4f57" key="sap.afm.nodeOutputs">
     <annotations/>
   </annotations>
-  <nodes xsi:type="flowgraph:DataNode" xmi:id="d84e0993688ea7950877d1af272837dd" name="ZBW_ZVTDIEX_6" type="DATABASE_TABLE" catalogObjectName="SCP_CAROZZI_SAC::ZBW_ZVTDIEX_6" dataLayout="COLUMN" truncateTable="false">
+  <nodes xsi:type="flowgraph:DataNode" xmi:id="d84e0993688ea7950877d1af272837dd" name="ZBW_ZVTDIEX_6" type="DATABASE_TABLE" catalogObjectName="ZBW_ZVTDIEX_6" dataLayout="COLUMN" truncateTable="false">
     <annotations xmi:id="20eb9c5bf004a0875c04d0a7cb906d9f" key="sap.afm.attributeMapping" value="ByName"/>
     <annotations xmi:id="85d2423c287ba30a330c82ebb0b17741" key="sap.afm.layout">
       <annotations xmi:id="7d1f3b362f750e8b05a677b7f46bf723" key="x" value="413"/>
@@ -144,7 +144,7 @@
       </attributes>
     </inputs>
   </nodes>
-  <nodes xsi:type="flowgraph:DataNode" xmi:id="068cd3a1a19f70f1aa6e5670e1cb874c" name="T_ZVTDIEX_SCP_1" type="DATABASE_TABLE" catalogObjectName="SCP_CAROZZI_SAC::T_ZVTDIEX_SCP" dataLayout="COLUMN" truncateTable="false">
+  <nodes xsi:type="flowgraph:DataNode" xmi:id="068cd3a1a19f70f1aa6e5670e1cb874c" name="T_ZVTDIEX_SCP_1" type="DATABASE_TABLE" catalogObjectName="T_ZVTDIEX_SCP" dataLayout="COLUMN" truncateTable="false">
     <annotations xmi:id="8c77217b6a6f07c71b6da242cd1153f9" key="sap.afm.description" value=""/>
     <annotations xmi:id="bcd88c91b73d4ce5ca836f36f08d9820" key="sap.afm.displayName" value="Data Source"/>
     <annotations xmi:id="64f5ed93ac4146f34c47ad1bbd6e9524" key="sap.afm.layout">
