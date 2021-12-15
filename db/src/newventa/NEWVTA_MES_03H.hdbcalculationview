@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" schemaVersion="3.0" id="NEWVTA_MES_03H" applyPrivilegeType="NONE" defaultLanguage="$$language$$" hierarchiesSQLEnabled="false" dataCategory="CUBE" enforceSqlExecution="true" executionSemantic="UNDEFINED" outputViewType="Aggregation" xscCompatibilityMode="true">
 <origin/>
-  <descriptions defaultDescription="NEWVTA_MES_03
-"/>
+  <descriptions defaultDescription="NEWVTA_MES_03 "/>
   <metadata changedAt="2021-06-25 15:58:20.076"/>
   <localVariables>
     <variable id="V_FECHA" parameter="true">
@@ -16,21 +15,21 @@
     <variable id="V_ORGANIZACION_VENTA">
       <descriptions defaultDescription="V_ORGANIZACION_VENTA"/>
       <variableProperties datatype="VARCHAR" defaultValue="1000" mandatory="true">
-        <valueDomain type="empty"/>
+        <valueDomain type="AttributeValue"/>
         <selection multiLine="true" type="SingleValue"/>
       </variableProperties>
     </variable>
     <variable id="V_DIVISION_COMERCIAL">
       <descriptions defaultDescription="V_DIVISION_COMERCIAL"/>
       <variableProperties datatype="VARCHAR" defaultValue="CH" mandatory="true">
-        <valueDomain type="empty"/>
+        <valueDomain type="AttributeValue"/>
         <selection multiLine="true" type="SingleValue"/>
       </variableProperties>
     </variable>
     <variable id="V_SOCIEDAD_CO">
       <descriptions defaultDescription="V_SOCIEDAD_CO"/>
       <variableProperties datatype="VARCHAR" defaultValue="EC01" mandatory="true">
-        <valueDomain type="empty"/>
+        <valueDomain type="AttributeValue"/>
         <selection multiLine="true" type="SingleValue"/>
       </variableProperties>
     </variable>
@@ -612,7 +611,7 @@
     <joinAttribute name="MATERIAL_ID"/>
   </calculationView>
 </calculationViews>
-  <logicalModel id="Join_1">
+  <logicalModel id="Join_1" filterExpressionLanguage="SQL">
     <descriptions/>
     <attributes>
       <attribute id="DIA_HABIL_TRAN" order="3" attributeHierarchyActive="false" displayAttribute="false">
@@ -926,13 +925,13 @@
         <keyCalculation datatype="DATE" expressionLanguage="COLUMN_ENGINE">
           <formula>'$$V_FECHA$$'</formula>
         </keyCalculation>
-      </calculatedAttribute>
+        </calculatedAttribute>
       <calculatedAttribute id="HORA_UTC" hidden="false" order="2" semanticType="empty" attributeHierarchyActive="false" displayAttribute="false">
         <descriptions defaultDescription="Hora UTC"/>
         <keyCalculation datatype="TIME" expressionLanguage="COLUMN_ENGINE">
           <formula>utcnow()</formula>
         </keyCalculation>
-      </calculatedAttribute>
+        </calculatedAttribute>
     </calculatedAttributes>
     <privateDataFoundation>
       <tableProxies/>
